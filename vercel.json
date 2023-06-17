@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "src": "/api/user",
+      "dest": "https://api.openai.com/v1/chat/completions"
+    },
+    {
+      "src": "/api/usd",
+      "dest": "https://api.openai.com/v1/dashboard/billing/subscription"
+    },
+    {
+      "src": "/api/usage",
+      "dest": "https://api.openai.com/v1/dashboard/billing/usage"
+    },
+    {
+      "src": "/baidu/user",
+      "dest": "https://www.baidu.com/s"
+    }
+  ]
+}
